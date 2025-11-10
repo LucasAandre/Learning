@@ -14,5 +14,5 @@ class ItemCardapio(ABC):
 
     @abstractmethod
     def aplicar_desconto(self):
-        pass # Não precisa ter nada. Um método abstrato serve apenas para dizer às classe filhas: VOCÊS PRECISAM TER O MÉTODO aplicar_desconto()
+        pass # Não precisa ter nada. Um método abstrato serve apenas para dizer às classes filhas: VOCÊS PRECISAM TER O MÉTODO aplicar_desconto()
     
