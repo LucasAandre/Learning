@@ -16,7 +16,8 @@ class Funcionario(ABC):
     @abstractmethod
     def calcular_bonus(self):
         pass
-
+    
+    @property
     def mostrar_informacoes(self):
         return f'Nome: {self._nome} | Salário: R${self._salario_base} | Cargo: {self._cargo}'
 
